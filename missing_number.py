@@ -10,4 +10,5 @@ def find_missing(list_1, list_2):
     item = list(set_1 ^ set_2) # Find the symmetric difference between both sets.
     if len(item) == 0:
         return 0
+        
     return item[0]
